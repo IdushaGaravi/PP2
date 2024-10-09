@@ -8,7 +8,6 @@ def get_input_data():
 def get_subsequence(characters_list, length_of_subsequence):
     segments_list = []
     for i in range(0, len(characters_list), length_of_subsequence):
-        #x = i
         sudsequence_list = characters_list[i: (i + length_of_subsequence)]
 
         subsequence = []
